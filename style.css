@@ -1,0 +1,81 @@
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;      
+    background-color:hsl(210, 60%, 98%);
+    padding: 5% 23%;
+}
+.container{
+    padding: 5% 5% 1% 5%;
+    border-radius: 20px;
+    background-color:white;
+}
+.head-content{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline ;
+    margin-bottom: 5%;
+}
+h2{
+    font-weight: 800;
+}
+#num{
+    color: white;
+    background-color: hsl(219, 85%, 26%);
+    padding: 2px 13px;
+    border-radius: 5px;
+    align-self: flex-start;
+    margin-top: 7px;
+}
+p{
+    color: hsl(219, 12%, 42%);
+}
+.tab1{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(210, 60%, 98%);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 3%;
+}
+.alert{
+    color: red; 
+    margin-left: -15px;    
+    font-size: 15px;
+}
+.tab2 ,.tab3{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 3%;
+}
+h6,h5,img{
+    cursor: pointer;
+}
+#mark:hover{
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
+}
+#massage:hover{
+    cursor: pointer;
+    background-color: hsl(211, 68%, 94%);
+}
+img{
+    width: 60px;
+    height: 60px;
+}
+@media (max-width:550px){
+    body{
+        padding: 0;
+        font-size: 14px;
+    }
+  h6,h5{
+    font-size: 15px;
+  }
+  img{
+    width: 40px;
+    height: 40px;
+    margin: 10px -5px;
+  }
+}

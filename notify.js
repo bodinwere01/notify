@@ -1,0 +1,9 @@
+document.getElementById('mark').addEventListener('click',()=>{
+    document.getElementById('tab1').style.backgroundColor="white";
+    document.getElementById('tab2').style.backgroundColor="white";
+    document.getElementById('tab3').style.backgroundColor="white";
+    document.getElementById('alert1').remove();
+    document.getElementById('alert2').remove();
+    document.getElementById('alert3').remove();
+    document.getElementById('num').innerHTML="0";
+})
